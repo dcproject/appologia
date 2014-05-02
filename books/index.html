@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Appologia</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link href="/css/ratchet.css" rel="stylesheet">
+    <link href="/css/ratchet-theme-iios.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <!-- Include the compiled Ratchet JS -->
+    <script src="/js/ratchet.js"></script>
+  </head>
+  <body>
+    <!-- Make sure all your bars are the first things in your <body> -->
+    <header class="bar bar-nav">
+      <a class="icon icon-bars pull-left" href="#popover"></a>
+      <h1 class="title">Books</h1>
+
+      <div id="popover" class="popover">
+        <header class="bar bar-nav">
+          <h1 class="title">Menu</h1>
+        </header>
+        <ul class="table-view">
+          <li class="table-view-cell"><a href="/">Home</a></li>
+          <li class="table-view-cell"><a href="/news">News</a></li>
+          <li class="table-view-cell"><a href="/responses">Responses</a></li>
+          <li class="table-view-cell"><a href="/litigation">Litigation</a></li>
+          <li class="table-view-cell"><a href="/faith">Statement of Faith</a></li>
+        </ul>
+      </div>
+
+    </header>
+
+
+    <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+    <div class="content">
+      <p class="content-padded">This site contains the following books in electronic form:</p>
+
+      <ul class="table-view">
+          <li class="table-view-cell media">
+            <a class="navigate-right">
+              <img class="media-object pull-left" src="http://placehold.it/42x42">
+              <div class="media-body">
+                <a href="/books/epub/genuine-believers-and-fellow-members.epub">The Local Churches: “Genuine Believers and Fellow Members of the Body of Christ”</a>,
+                <p>which contains statements by Hank Hanegraaff, President of the Christian Research Institute; Gretchen Passantino, co-founder and director of Answers in Action; and a panel of senior faculty members at Fuller Theological Seminary. All three of these respected sources confirmed the orthodoxy of the teaching of Witness Lee and the local churches.</p>
+              </div>
+            </a>
+          </li>
+          <li class="table-view-cell media">
+            <a class="navigate-right">
+              <img class="media-object pull-left" src="http://placehold.it/42x42">
+              <div class="media-body">
+                <a href="#">A Confirmation of the Gospel: Concerning the Teaching of the Local Churches and Living Stream Ministry</a>,
+                <p>which contains a statement prepared by brothers representing the local churches and by the editorial section of Living Stream Ministry for the faculty panel of Fuller Theological Seminary to document some of the key theological issues addressed in their ongoing dialogue. The main body of the book addresses: </p>
+                <ul>
+                    <li>Our affirmation of the common faith;</li>
+                    <li>Our particular understanding of certain truths, including: </li>
+                        <ul>
+                            <li>The Trinity;</li>
+                            <li>The Person of Christ;</li>
+                            <li>The identification of Christ with the life-giving Spirit</li>
+                            <li>God’s full salvation; and</li>
+                            <li>The genuine ground of oneness; and</li>
+                            <li>The way we meet together and seek to serve the Lord.</li>
+                        </ul>
+              </div>
+            </a>
+          </li>
+          <li class="table-view-cell media">
+            <a class="navigate-right">
+              <img class="media-object pull-left" src="http://placehold.it/42x42">
+              <div class="media-body">
+                <a href="/books/pdf/voices-of-confirmation.pdf">Voices of Confirmation Concerning Watchman Nee, Witness Lee & the Local Churches</a>,
+                <p>a brochure containing a compilation of statements from leaders in Christian apologetics, theological education, and evangelical journalism affirming the orthodoxy of the teaching and practices of the local churches raised up through the ministry of Watchman Nee and Witness Lee.</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+
+    </div>
+  </body>
+</html>
