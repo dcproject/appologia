@@ -356,6 +356,13 @@ p {
   color: #777;
 }
 
+li {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #777;
+}
+
 .btn {
   position: relative;
   display: inline-block;
