@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Appologia</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link href="/css/ratchet.css" rel="stylesheet">
+    <link href="/css/ratchet-theme-iios.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <!-- Include the compiled Ratchet JS -->
+    <script src="/js/ratchet.js"></script>
+  </head>
+  <body>
+    <!-- Make sure all your bars are the first things in your <body> -->
+    <header class="bar bar-nav">
+      <a class="icon icon-bars pull-left" href="#popover"></a>
+      <h1 class="title">Responses</h1>
+
+      <div id="popover" class="popover">
+        <header class="bar bar-nav">
+          <h1 class="title">Menu</h1>
+        </header>
+        <ul class="table-view">
+          <li class="table-view-cell"><a href="/">Home</a></li>
+          <li class="table-view-cell"><a href="/news">News</a></li>
+          <li class="table-view-cell"><a href="/litigation">Litigation</a></li>
+          <li class="table-view-cell"><a href="/faith">Statement of Faith</a></li>
+        </ul>
+      </div>
+
+    </header>
+
+
+    <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+    <div class="content">
+      <p class="content-padded">Welcome to Appologia, the DCP app.</p>
+      <div class="card">
+        <ul class="table-view">
+          <li class="table-view-cell media">
+            <a class="navigate-right" href="/responses/bible">
+              The Bible
+            </a>
+          </li>
+          <li class="table-view-cell media">
+            <a class="navigate-right" href="/responses/triunegod">
+              The Triune God (The Trinity)
+            </a>
+          </li>
+          <li class="table-view-cell media">
+            <a class="navigate-right" href="/responses/christ">
+              The Person of Christ
+            </a>
+          </li>
+          <li class="table-view-cell media">
+            <a class="navigate-right" href="/responses/experience/">
+              Concerning Salvation and Our Experience of Christ
+            </a>
+          </li>
+          <li class="table-view-cell media">
+            <a class="navigate-right" href="/responses/church">
+              The Church
+            </a>
+          </li>
+          <li class="table-view-cell media">
+            <a class="navigate-right" href="/responses/practices">
+              Terminology and Practices
+            </a>
+          </li>
+          <li class="table-view-cell media">
+            <a class="navigate-right" href="/responses/critique">
+              Biblical Critique of Christianity
+            </a>
+          </li>
+          <li class="table-view-cell media">
+            <a class="navigate-right" href="/responses/controversies">
+              Controversies
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
